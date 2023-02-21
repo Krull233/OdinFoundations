@@ -1,0 +1,99 @@
+/* CSS FOR ALL RECIPES */
+
+* {
+  background-color: rgb(253, 244, 227);
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+  color: coral;
+  font-size: 80px;
+  background-color: rgb(235, 216, 182);
+  border-style: dotted;
+  border-width: 8px;
+  border-radius: 15px;
+  margin: 0px 200px 25px 200px;
+}
+
+/* ---- */
+a:link {
+  text-decoration: none;
+  background-color: transparent;
+  color: coral;
+}
+
+a:visited {
+  color: rgb(145, 63, 33);
+}
+
+a:hover {
+  color: rgb(255, 68, 0);
+}
+
+.home {
+  margin: 0px 200px 50px 225px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 20px auto 10px 200px;
+  border-style: solid;
+  border-color: rgb(145, 63, 33);
+  border-width: 4px;
+  border-radius: 15px;
+}
+
+.description {
+  text-align: left;
+  font-weight: 700;
+  margin: 15px auto 10px 200px;
+  color: rgb(145, 63, 33);
+}
+
+.description.long {
+  margin: 15px 700px 10px 200px;
+}
+
+h4 {
+  color: coral;
+  text-decoration: underline;
+  font-size: 25px;
+  margin-left: 200px;
+}
+
+/* Ingredients */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul li {
+  padding: 8px 25px 8px 25px;
+  margin-left: 175px;
+  color: rgb(145, 63, 33);
+}
+
+/* Steps */
+ol {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ol li {
+  padding: 8px 25px 8px 25px;
+  margin-left: 235px;
+  margin-right: 200px;
+  color: rgb(145, 63, 33);
+}
